@@ -14,7 +14,9 @@ const Features = () => {
         className="flex gap-x-2 justify-center cursor-pointer "
         onClick={handleClick}
       >
-        <div className="text-slate-500 hover:text-black">Features</div>
+        <div className="text-slate-500 font-semibold hover:text-black">
+          Features
+        </div>
 
         {open ? (
           <Image
@@ -33,7 +35,7 @@ const Features = () => {
         )}
       </div>
       {open && (
-        <div className="absolute -ms-[57px] mt-2 w-[120px] border flex flex-col items-center  rounded-md shadow-2xl -gap-y-2 p-2">
+        <div className="absolute -ms-[49px] mt-2 w-[120px] border flex flex-col items-center gap-y-2  rounded-md shadow-2xl -gap-y-2 p-2">
           <div className="flex gap-x-2  ">
             <Image
               src="./images/icon-todo.svg"
