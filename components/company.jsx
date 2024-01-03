@@ -9,7 +9,7 @@ const Company = () => {
     setOpen(!open);
   };
   return (
-    <div className="relative ">
+    <div className="lg:relative mt-3 lg:mt-0 ms-1 lg:ms-0">
       <div
         className="flex gap-x-2 justify-center cursor-pointer "
         onClick={handleClick}
@@ -35,7 +35,7 @@ const Company = () => {
         )}
       </div>
       {open && (
-        <div className="absolute  mt-2 w-[100px] border flex flex-col justify-start gap-y-2  rounded-md shadow-2xl -gap-y-2 p-2">
+        <div className="lg:absolute  lg:mt-2 w-[100px] lg:border  flex flex-col justify-start gap-y-2  rounded-md lg:shadow-2xl  lg:p-2 ">
           <div className="flex gap-x-2 ms-2  ">
             <h1 className="text-sm text-slate-500">History</h1>
           </div>

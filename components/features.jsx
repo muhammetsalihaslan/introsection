@@ -9,7 +9,7 @@ const Features = () => {
     setOpen(!open);
   };
   return (
-    <div className="relative ">
+    <div className="lg:relative mt-3 lg:mt-0 min-w-fit">
       <div
         className="flex gap-x-2 justify-center cursor-pointer "
         onClick={handleClick}
@@ -35,7 +35,7 @@ const Features = () => {
         )}
       </div>
       {open && (
-        <div className="absolute -ms-[49px] mt-2 w-[120px] border flex flex-col items-center gap-y-2  rounded-md shadow-2xl -gap-y-2 p-2">
+        <div className="lg:absolute lg:-ms-[49px]  mt-2 lg:w-[120px]  lg:border flex flex-col items-center gap-y-2   rounded-md lg:shadow-2xl  lg:p-2  ">
           <div className="flex gap-x-2  ">
             <Image
               src="./images/icon-todo.svg"
