@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="text-4xl font-bold mb-2 ms-5 lg:ms-0">snap</div>
       {!menu ? (
         <div className="flex  h-screen  w-screen me-[2rem] lg:hidden  fixed items-end ">
-          <div className="w-3/5 bg-transparent-500 h-screen"></div>
+          <div className="w-3/5 bg-black bg-opacity-60 h-screen"></div>
           <div className="w-2/5 bg-white h-screen">
             <div
               className="flex justify-end me-5 mt-5 cursor-pointer"
